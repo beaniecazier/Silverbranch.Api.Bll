@@ -65,11 +65,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\sql\src\SQL.Utilities.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+      <PackageReference Include="Gay.Silverbranch.pkg.Api.SQL" Version="1.0.0-alpha-20250702-144748" />
     </ItemGroup>
 
 </Project>
