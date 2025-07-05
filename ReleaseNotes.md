@@ -22,7 +22,7 @@ This alpha release introduces early implementations of planned features for vers
 - Interface to unify databases for repository
 - Interface to unify repository layer
 - Interface to unify Service layer calls to repository layer
-- Standarized Get All Models options class
+- Standardized Get All Models options class
 - Service Collection extensions
 - NanoIds and constants!
 
