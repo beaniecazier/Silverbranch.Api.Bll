@@ -10,7 +10,8 @@ public static class DbContextServiceCollectionExtensions
     public static IServiceCollection AddDatabase<T>(
         this IServiceCollection services,
         ConfigurationManager config,
-        string connStrConfigName)
+        string connStrConfigName,
+        bool verbose = false)
     where T : DbContext
     {
         var connStr = config.GetValue<string>(connStrConfigName);
@@ -19,6 +20,7 @@ public static class DbContextServiceCollectionExtensions
             Log.Fatal("Connection String was null");
             return services;
         }
+        if (verbose) Log.Verbose("Connection String was " + connStr);
 
         services.AddDbContext<T>(options =>
         {
