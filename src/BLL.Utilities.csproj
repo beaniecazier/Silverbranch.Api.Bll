@@ -66,7 +66,7 @@
 
     <ItemGroup>
       <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
-      <PackageReference Include="Gay.Silverbranch.pkg.Api.SQL" Version="1.0.0-alpha-20250706-022638" />
+      <PackageReference Include="Gay.Silverbranch.pkg.Api.SQL" Version="1.0.0-alpha-20250709-224711" />
     </ItemGroup>
 
 </Project>
