@@ -1,6 +1,6 @@
 ﻿# SILVERBRANCH CODEWORKS API BLL Utilities
 
-## Version [1.1.0-alpha] - 2025-07-02
+## Version [1.0.0-alpha] - 2025-07-20
 
 **Type:** Alpha  
 **Stability:** ⚠️ Experimental – Not recommended for production use.

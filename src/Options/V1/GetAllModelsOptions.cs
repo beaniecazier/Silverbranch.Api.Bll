@@ -1,6 +1,7 @@
-using Gay.Silverbranch.API.Models.Enum;
 using Microsoft.Data.SqlClient;
 using Swashbuckle.AspNetCore.Annotations;
+
+using Gay.Silverbranch.API.Models.Enum.V1;
 
 namespace Gay.Silverbranch.API.BLL.Options.V1;
 

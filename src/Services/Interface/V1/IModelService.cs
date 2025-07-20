@@ -1,6 +1,7 @@
-using Gay.Silverbranch.API.BLL.Options.V1;
-using Gay.Silverbranch.API.Models;
 using LanguageExt;
+
+using Gay.Silverbranch.API.BLL.Options.V1;
+using Gay.Silverbranch.API.Models.Entities.V1;
 
 namespace Gay.Silverbranch.API.BLL.Services.Interface.V1;
 
