@@ -31,9 +31,39 @@
         <FileVersion>$(VersionPrefix).0</FileVersion>
 
         <PackageReleaseNotes>
-            Version 1.0.0-alpha
-            ----------------------------------------------------------------
-            notes here
+            # SILVERBRANCH CODEWORKS API BLL Utilities
+
+            ## Version [1.0.0-alpha] - 2025-07-21
+
+            **Type:** Alpha
+            **Stability:** ⚠️ Experimental – Not recommended for production use.
+
+            ---
+
+            ### 🚧 Overview
+
+            This alpha release introduces early implementations of planned features for version 1.0.0.
+
+            > ⚠️ APIs and behavior may change without notice in future builds.
+
+            > 💡 Use this release to explore upcoming features and provide feedback.
+
+            ---
+
+            ### ➕ New Features ➕
+
+            - Interface to unify databases for repository
+            - Interface to unify repository layer
+            - Interface to unify Service layer calls to repository layer
+            - Standardized Get All Models options class
+            - Service Collection extensions
+            - NanoIds and constants!
+
+            ---
+
+            ### 🔗 Related Links 🔗
+
+            - [Full Changelog](CHANGELOG.md#Version-100-alpha)
         </PackageReleaseNotes>
     </PropertyGroup>
 
@@ -66,7 +96,7 @@
 
     <ItemGroup>
       <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
-      <PackageReference Include="Gay.Silverbranch.pkg.Api.SQL" Version="1.0.0-alpha-20250720-141335" />
+      <PackageReference Include="Gay.Silverbranch.pkg.Api.SQL" Version="1.0.0-alpha-20250721-145501" />
     </ItemGroup>
 
 </Project>

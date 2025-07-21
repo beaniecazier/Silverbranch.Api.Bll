@@ -5,6 +5,8 @@
 
 The General collection base utility business logic code for our APIs for all Silverbranch Codeworks Software Solutions
 
+> This package is built for [.NET version(s)] and supports [platforms, if applicable].
+
 ## Project status
 This is currently in an unreleased alpha state while I get everything ready for the first two major projects to be pushed
 
