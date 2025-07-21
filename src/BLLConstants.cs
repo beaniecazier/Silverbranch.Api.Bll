@@ -1,4 +1,4 @@
-namespace Gay.Silverbranch.API.BLL;
+namespace Gay.Silverbranch.Api.Bll;
 
 public class BLLConstants
 {

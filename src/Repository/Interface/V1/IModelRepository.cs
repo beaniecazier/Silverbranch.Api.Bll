@@ -1,10 +1,10 @@
 using LanguageExt;
 
-using Gay.Silverbranch.API.BLL.Database.V1;
-using Gay.Silverbranch.API.BLL.Options.V1;
-using Gay.Silverbranch.API.Models.Entities.V1;
+using Gay.Silverbranch.Api.Bll.Database.V1;
+using Gay.Silverbranch.Api.Bll.Options.V1;
+using Gay.Silverbranch.Api.Models.Entities.V1;
 
-namespace Gay.Silverbranch.API.BLL.Repository.Interface.V1;
+namespace Gay.Silverbranch.Api.Bll.Repository.Interface.V1;
 
 public interface IModelRepository<T, TD>
     where T : BaseModel

@@ -1,9 +1,9 @@
 using LanguageExt;
 
-using Gay.Silverbranch.API.BLL.Options.V1;
-using Gay.Silverbranch.API.Models.Entities.V1;
+using Gay.Silverbranch.Api.Bll.Options.V1;
+using Gay.Silverbranch.Api.Models.Entities.V1;
 
-namespace Gay.Silverbranch.API.BLL.Services.Interface.V1;
+namespace Gay.Silverbranch.Api.Bll.Services.Interface.V1;
 
 public interface IModelService<T> where T : BaseModel
 {

@@ -13,8 +13,8 @@
         <Authors>Tiabeanie Cazier</Authors>
         <Product>$(Company) API BLL Utilities</Product>
         <Title>$(Product)</Title>
-        <AssemblyName>Api.BLL</AssemblyName>
-        <RootNamespace>Gay.Silverbranch.API.BLL</RootNamespace>
+        <AssemblyName>Api.Bll</AssemblyName>
+        <RootNamespace>Gay.Silverbranch.$(AssemblyName)</RootNamespace>
         <PackageId>Gay.Silverbranch.pkg.$(AssemblyName)</PackageId>
         <VersionPrefix>1.0.0</VersionPrefix>
         <VersionSuffix>alpha-$([System.DateTime]::UtcNow.ToString("yyyyMMdd-HHmmss"))</VersionSuffix>
@@ -96,7 +96,7 @@
 
     <ItemGroup>
       <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
-      <PackageReference Include="Gay.Silverbranch.pkg.Api.SQL" Version="1.0.0-alpha-20250721-145501" />
+      <PackageReference Include="Gay.Silverbranch.pkg.Api.SQL" Version="1.0.0-alpha-20250721-170057" />
     </ItemGroup>
 
 </Project>

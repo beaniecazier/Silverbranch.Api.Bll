@@ -1,9 +1,9 @@
 using Microsoft.Data.SqlClient;
 using Swashbuckle.AspNetCore.Annotations;
 
-using Gay.Silverbranch.API.Models.Enum.V1;
+using Gay.Silverbranch.Api.Models.Enum.V1;
 
-namespace Gay.Silverbranch.API.BLL.Options.V1;
+namespace Gay.Silverbranch.Api.Bll.Options.V1;
 
 public class GetAllModelsOptions
 {

@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 
-namespace Gay.Silverbranch.API.BLL.Extensions.ServiceCollection;
+namespace Gay.Silverbranch.Api.Bll.Extensions.ServiceCollection;
 
 public static class DbContextServiceCollectionExtensions
 {
