@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Serilog;
 
 namespace Gay.Silverbranch.Api.Bll.Extensions.ServiceCollection;
@@ -23,9 +24,8 @@ public static class DbContextServiceCollectionExtensions
         if (verbose) Log.Verbose("Connection String was " + connStr);
 
         services.AddDbContext<T>(options =>
-        {
-            options.UseSqlServer(connStr);
-        });
+            options.UseSqlServer(connStr)
+                .LogTo(Log.Logger.Debug, LogLevel.Debug, null));
         return services;
     }
 }
